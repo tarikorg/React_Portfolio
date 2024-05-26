@@ -37,7 +37,7 @@
 
   ## Deployment
   - Link to my repo: https://github.com/tarikorg/React_Portfolio
-  - Deployed link: [SERVER](https://serene-brook-59865-8a890474ee8a.herokuapp.com/)
+  - Deployed link: [Server](https://t-arik-portfolio.netlify.app/)
    
   ## Questions
   - Github username: https://github.com/tarikorg
