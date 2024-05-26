@@ -8,7 +8,7 @@ function Footer() {
     const { theme } = useTheme()
 
     return (
-        <footer className={`${theme === 'light' ? 'bg-light text-dark' : 'bg-dark text-light'} text-center  mt-auto py-4`}>
+        <footer className={`${theme === 'light' ? 'bg-light text-dark' : 'bg-dark text-light'} text-center  `}>
             <div className='d-flex justify-content-evenly links'>
                 <p>© 2021 Muhsin Tarik</p>
 

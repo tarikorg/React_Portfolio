@@ -40,7 +40,7 @@ function PortfolioBox() {
                         <img src={git} alt='git' className='tech-logo' />
                     </div>
                     <div className="buttons-container">
-                        <a href="https://github.com/tarikorg/Reading_Nook" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/tarikorg/Reading_Nook" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
                         <a href='https://guarded-river-34918-8aebb7f6bceb.herokuapp.com/' target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Site</a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function PortfolioBox() {
                         <img src={git} alt='git' className='tech-logo' />
                     </div>
                     <div className="buttons-container">
-                        <a href="https://github.com/ThStranick15/league_team_builder" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/ThStranick15/league_team_builder" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
                         <a href='https://thstranick15.github.io/league_team_builder/' target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Site</a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ function PortfolioBox() {
                         <img src={git} alt='git' className='tech-logo' />
                     </div>
                     <div className="buttons-container">
-                        <a href="https://github.com/tarikorg/mvc_tech_blog" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/tarikorg/mvc_tech_blog" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
                         <a href='https://boiling-caverns-39590-648518cd9cec.herokuapp.com/' target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Site</a>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ function PortfolioBox() {
                         <img src={git} alt='git' className='tech-logo' />
                     </div>
                     <div className="buttons-container">
-                        <a href="https://github.com/tarikorg/SQL_employee_tracker" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/tarikorg/SQL_employee_tracker" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@ function PortfolioBox() {
                         <img src={git} alt='git' className='tech-logo' />
                     </div>
                     <div className="buttons-container">
-                        <a href="https://github.com/tarikorg/pwa_text_editor" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/tarikorg/pwa_text_editor" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ function PortfolioBox() {
                     </div>
 
                     <div className="buttons-container">
-                        <a href="https://github.com/tarikorg/ecommerce_back_end" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Github Repo</a>
+                        <a href="https://github.com/tarikorg/ecommerce_back_end" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Repo</a>
 
                     </div>
                 </div>
