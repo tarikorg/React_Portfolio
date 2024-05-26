@@ -25,7 +25,7 @@ const Resume = () => {
                             <ListGroupItem>Express</ListGroupItem>
                             <ListGroupItem>MongoDB</ListGroupItem>
                             <ListGroupItem>jQuerry</ListGroupItem>
-                            <ListGroupItem>React</ListGroupItem>
+                            <ListGroupItem>SQL</ListGroupItem>
                             <ListGroupItem>GraphQL</ListGroupItem>
                             <ListGroupItem>PostgreSQL</ListGroupItem>
                             <ListGroupItem>Sequelize</ListGroupItem>
