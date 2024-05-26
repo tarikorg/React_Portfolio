@@ -96,11 +96,7 @@ const Contact = () => {
                 </Form>
 
             </div>
-            <div className='links d-flex justify-content-center'>
-                <a href="https://github.com/tarikorg">GitHub</a>
 
-                <a href="myku1771@gmail.com">Email</a>
-            </div>
         </>
     )
 }
