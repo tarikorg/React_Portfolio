@@ -14,13 +14,7 @@ main {
 
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f8f9fa;
-}
+
 
 
 
@@ -40,20 +34,31 @@ body {
 }
 
 /* Dark Mode Styles */
-body {
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
   background: linear-gradient(45deg, #2b405f, #212529);
   background-size: 200% 200%;
   animation: gradient 15s ease infinite;
-  color: white;
 }
 
 /* Light Mode Styles */
-body.light-mode {
-  background: linear-gradient(45deg, #b2e4f3, #4f67d3d0);
-  /* Bright Blue Theme */
+body.light-mode::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(45deg, #a6acad, #4f67d3d0);
   background-size: 200% 200%;
   animation: gradient 3s ease infinite;
-  color: black;
 }
 
 /* Navbar Styles */
@@ -64,8 +69,6 @@ body.light-mode {
 .navbar-light.bg-light {
   background-color: #f8f9fa !important;
 }
-
-
 
 // ===================== GRADIENT BACKGROUND
 

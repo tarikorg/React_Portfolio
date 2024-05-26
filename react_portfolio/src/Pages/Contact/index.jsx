@@ -88,7 +88,7 @@ const Contact = () => {
                             required
                         />
                     </Form.Group>
-                    <div className='d-flex justify-content-center'>
+                    <div className='btns d-flex justify-content-center'>
                         <Button variant="primary" type="submit" className='bg-warning '>
                             Submit
                         </Button>
