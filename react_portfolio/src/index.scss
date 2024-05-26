@@ -118,10 +118,10 @@ body.light-mode {
 
 @media (max-width: 768px) {
 
-  /* Adjustments for screens smaller than 768px */
+
   .tech-stack-container {
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    /* Smaller boxes */
+
   }
 }
 
@@ -150,3 +150,18 @@ body.light-mode {
 
 
 // footer
+
+footer {
+  flex-shrink: 0;
+
+  background-color: #f8f9fa;
+
+  color: #333;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+  border-top: 1px solid #dee2e6;
+
+}

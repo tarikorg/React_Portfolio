@@ -36,24 +36,13 @@ function AboutMe() {
 
     return (
         <>
-            <div className='d-flex justify-content-start'>
+            <div className='d-flex justify-content-center'>
                 <h1 className='fit-content m-3 text-light' style={{ fontSize: '48px', fontWeight: 'bold', textAlign: 'center', marginTop: '3rem' }}>Learn About {text}</h1>
             </div>
 
-            <Container fluid>
-                <Row xs={1} md={3}>
-                    <Col xs={12} md={4} className='text-light ' style={{ fontSize: '24px' }}>
-                        <p className='font-weight-bold'>
-                            My name is Muhsin Tarik. I am a full-stack web developer with a passion for creating beautiful and functional websites. I have experience with a variety of technologies,
-                            aiming to create the best user experience possible. I am a quick learner and am always looking to expand my knowledge and skillset. I am currently seeking a position as a web developer.
-                        </p>
-                        <p className='font-weight-bold'>
-                            I have experience with the following technologies:
-                        </p>
-                        <TechStack />
-                    </Col>
-
-                    <Col xs={7} md={8} >
+            <Container fluid >
+                <Row xs={1} md={3} className='d-flex justify-content-center'>
+                    <Col xs={7} md={3} >
                         <Figure className=''>
                             <Figure.Image
                                 width={420}
@@ -64,6 +53,18 @@ function AboutMe() {
                             />
                         </Figure>
                     </Col>
+                    <Col xs={12} md={5} className='text-light ' style={{ fontSize: '24px' }}>
+                        <p className='font-weight-bold'>
+                            My name is Muhsin Tarik. I am a full-stack web developer with a passion for creating beautiful and functional websites. I have experience with a variety of technologies,
+                            aiming to create the best user experience possible. I am a quick learner and am always looking to expand my knowledge and skillset. I am currently seeking a position as a web developer.
+                        </p>
+                        <p className='font-weight-bold'>
+                            I have experience with the following technologies:
+                        </p>
+                        <TechStack />
+                    </Col>
+
+
 
 
                 </Row>

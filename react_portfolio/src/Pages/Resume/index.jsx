@@ -6,7 +6,7 @@ import resume from '../../assets/MUHSIN_TARIK.pdf'
 const Resume = () => {
     return (
 
-        <Container fluid className="resume-container">
+        <Container fluid className="resume-container d-flex justify-content-center">
             <Row>
                 <Col xs={12} md={6} >
                     <h2>Download My Resume</h2>
@@ -15,7 +15,7 @@ const Resume = () => {
                         Download Resume
                     </Button>
                 </Col>
-                <Col xs={12} md={3}>
+                <Col xs={12} md={6}>
                     <h2>Proficiencies</h2>
                     <div className='proficiency-list text-center'>
                         <ListGroup>
@@ -26,9 +26,10 @@ const Resume = () => {
                             <ListGroupItem>MongoDB</ListGroupItem>
                             <ListGroupItem>jQuerry</ListGroupItem>
                             <ListGroupItem>React</ListGroupItem>
-                            <ListGroupItem>Express</ListGroupItem>
+                            <ListGroupItem>GraphQL</ListGroupItem>
                             <ListGroupItem>PostgreSQL</ListGroupItem>
-                            {/* Add more ListGroupItems as needed */}
+                            <ListGroupItem>Sequelize</ListGroupItem>
+
                         </ListGroup>
                     </div>
                 </Col>

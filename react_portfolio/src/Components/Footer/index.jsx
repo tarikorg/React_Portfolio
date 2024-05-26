@@ -1,5 +1,7 @@
 import { useTheme } from '../ThemeToggle'
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './footer.scss'
 
 
 function Footer() {
@@ -7,7 +9,16 @@ function Footer() {
 
     return (
         <footer className={`${theme === 'light' ? 'bg-light text-dark' : 'bg-dark text-light'} text-center  mt-auto py-4`}>
-            <p>© 2021 Muhsin Tarik</p>
+            <div className='d-flex justify-content-evenly links'>
+                <p>© 2021 Muhsin Tarik</p>
+
+
+                <a href="https://github.com/tarikorg">GitHub</a>
+
+
+                <a href="mailto: myku1771@gmail.com">Email</a>
+            </div>
+
         </footer>
     )
 }

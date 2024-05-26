@@ -58,11 +58,18 @@
     }
 }
 
-.links a {
+.links {
 
     text-decoration: none;
-    color: gold;
+    color: rgb(255, 187, 0);
     font-size: 1.5rem;
-    padding: 10px;
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 187, 0);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 
 }
